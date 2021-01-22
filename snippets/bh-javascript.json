@@ -10,6 +10,13 @@
     ],
     "description": "Create a new stylesheet for use with Styled Components"
   },
+  "Stylesheet - ThemeHelper": {
+    "prefix": "!th",
+    "body": [
+      "import th from \"../../util/themeHelper.js\";"
+    ],
+    "description": "Import the ThemeHelper function"
+  },
   "Stylesheet - Styled Component Switch": {
     "prefix": "!switch",
     "body": [

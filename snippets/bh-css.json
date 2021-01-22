@@ -16,16 +16,23 @@
     "description": "Use a color from the theme file"
   },
   "Theme - Font Size": {
-    "prefix": "!size",
+    "prefix": "!font-size",
     "body": [
-      "${props => props.theme.font.size.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
+      "font-size: ${props => props.theme.font.size.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
     ],
     "description": "Use a font-size from the theme file"
   },
   "Theme - Font Weight": {
-    "prefix": "!weight",
+    "prefix": "!font-weight",
     "body": [
-      "${props => props.theme.font.weight.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
+      "font-weight: ${props => props.theme.font.weight.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
+    ],
+    "description": "Use a font-weight from the theme file"
+  },
+  "Theme - Border Radius": {
+    "prefix": "!border-radius",
+    "body": [
+      "border-radius: ${props => props.theme.border.radius.${1|xs,xm,md,lg,xl,50|}};"
     ],
     "description": "Use a font-weight from the theme file"
   },
