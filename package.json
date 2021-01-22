@@ -1,7 +1,8 @@
 {
     "name": "bauhaus-snippets",
-    "displayName": "Bauhaus Snippets",
+    "displayName": "Team Bauhaus Snippets",
     "description": "Code Snippets for team Bauhaus and Library development",
+    "repository": "https://github.com/wylie/bauhaus-snippets",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
@@ -25,5 +26,5 @@
             }
         ]
     },
-    "publisher": "Wylie"
+    "publisher": "WylieFisher"
 }
