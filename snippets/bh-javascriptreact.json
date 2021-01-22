@@ -1,0 +1,13 @@
+{
+  "propTypes": {
+    "prefix": "!prop",
+    "body": [
+      "/**",
+      "* ${4:propDescription}",
+      "* $CURRENT_YEAR",
+      "*/",
+      "${3:propName}: PropTypes.${1|array,bool,element,elementType,func,node,number,object,string,symbol|}$isRequired"
+    ],
+    "description": "Add a new proptype to the JSX"
+  }
+}

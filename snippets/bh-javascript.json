@@ -1,0 +1,55 @@
+{
+  "Stylesheet - New Styled Component": {
+    "prefix": "!nss",
+    "body": [
+      "import styled, { css } from \"styled-components\";",
+      "import th from \"../../util/themeHelper.js\";\n",
+      "export const ${2:componentName} = styled.${1:elementType}`",
+      "\t${3:styles}",
+      "`;"
+    ],
+    "description": "Create a new stylesheet for use with Styled Components"
+  },
+  "Stylesheet - Styled Component Switch": {
+    "prefix": "!switch",
+    "body": [
+      "const $2 = ({ theme, $2 }) => {",
+      "\tswitch ($2) {",
+      "\t\tcase \"$3\":",
+      "\t\t\treturn css`",
+      "\t\t\t\t$4;",
+      "\t\t\t`;",
+      "\tdefault:",
+      "\t\t\treturn ``;",
+      "\t}",
+      "};"
+    ],
+    "description": "A switch statement to be used in a stylesheet"
+  },
+  "Test - Console Log": {
+    "prefix": "!clog",
+    "body": [
+      "console.log($1); // eslint-disable-line"
+    ],
+    "description": "console log"
+  },
+  "Test - Console Log - Debug": {
+    "prefix": "!clogged",
+    "body": [
+      "console.log(component.debug()); // eslint-disable-line"
+    ],
+    "description": "console log"
+  },
+  "Test - Build Component": {
+    "prefix": "!buildcomp",
+    "body": [
+      "import Theme from \"../themeProvider\";",
+      "\nconst buildComponent = newProps => {",
+      "\treturn mount(<$1 {...newProps} />, {",
+      "\t\twrappingComponent: ({ children }) => <Theme ui=\"dmp\">{children}</Theme>",
+      "\t});",
+      "};"
+    ],
+    "description": "Use buildComponent in your test file"
+  }
+}
