@@ -1,5 +1,44 @@
 {
-  "propTypes": {
+  "JSX - Scaffolding": {
+    "prefix": "!scaffold",
+    "body": [
+      "import React from \"react\";",
+      "import PropTypes from \"prop-types\";",
+      "import cn from \"classnames\";\n",
+      "import { $4 } from \"./styled.js\";\n",
+      "/**",
+      " * ### Description",
+      " * $3",
+      " *",
+      " * @visibleName $1",
+      " */\n",
+      "const $1 = ({ className, children, ...${1/^(.)(.*)$/${1:/downcase}${2}/}Props }) => {",
+      "\treturn (",
+      "\t\t<$4 className={cn(className)} {...${1/^(.)(.*)$/${1:/downcase}${2}/}Props}>",
+      "\t\t\t{children}",
+      "\t\t</$4>",
+      "\t);",
+      "};\n",
+      "$1.displayName = \"$1\";\n",
+      "$1.propTypes = {",
+      "\t/**",
+      "\t * Children of the component",
+      "\t */",
+      "\tchildren: PropTypes.string,",
+      "\t/**",
+      "\t * @ignore",
+      "\t */",
+      "\tclassName: PropTypes.string",
+      "};\n",
+      "$1.defaultProps = {",
+      "\tchildren: \"\",",
+      "\tclassName: \"\"",
+      "};\n",
+      "export default $1;"
+    ],
+    "description": "Scaffold out a new JSX file"
+  },
+  "JSX - A New propTypes": {
     "prefix": "!prop",
     "body": [
       "/**",

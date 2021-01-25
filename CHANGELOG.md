@@ -2,8 +2,45 @@
 
 All notable changes to the "bauhaus-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to 5structure this file.
 
-## [Unreleased]
+## 0.0.5
+
+### Fixed
+
+- Correct version number in README
+- Renamed Javascript React snippet, it was wrong in the file
+
+### Changed
+
+- Updating titles on CSS Snippets page
+- Changed **New Styled Component** prefix `!nss` to `!scaffold`
+
+### Added
+
+- Added `!block` to create a new Styled Component block
+- Added `!scaffold` to create a new Spec file
+- Added `vsc-extension-quickstart.md` to the `.gitignore`
+- Added `!scaffold` to create a new JSX file
+
+## 0.0.4
+
+### Added
+
+- Added to the README and CHANGELOG
+
+## 0.0.3
+
+### Added
+
+- Adding an icon image
+
+## 0.0.2
+
+### Added
+
+- Adding more snipets
+
+## 0.0.1
 
 - Initial release

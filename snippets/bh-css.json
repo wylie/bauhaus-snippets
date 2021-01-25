@@ -1,5 +1,5 @@
 {
-  "Media Query": {
+  "CSS(SC) - Media Query": {
     "prefix": "!mq",
     "body": [
       "@media (min-width: ${props => props.theme.breakpoints.${1|sm,md,lg|}}) {",
@@ -8,42 +8,42 @@
     ],
     "description": "Add a media query inside a Styled Component block"
   },
-  "Theme - Colors": {
+  "CSS(SC) - Theme - Colors": {
     "prefix": "!color",
     "body": [
       "${props => props.theme.colors.$1};"
     ],
     "description": "Use a color from the theme file"
   },
-  "Theme - Font Size": {
+  "CSS(SC) - Theme - Font Size": {
     "prefix": "!font-size",
     "body": [
       "font-size: ${props => props.theme.font.size.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
     ],
     "description": "Use a font-size from the theme file"
   },
-  "Theme - Font Weight": {
+  "CSS(SC) - Theme - Font Weight": {
     "prefix": "!font-weight",
     "body": [
       "font-weight: ${props => props.theme.font.weight.${1|xxs,xs,xm,md,lg,xl,xxl|}};"
     ],
     "description": "Use a font-weight from the theme file"
   },
-  "Theme - Border Radius": {
+  "CSS(SC) - Theme - Border Radius": {
     "prefix": "!border-radius",
     "body": [
       "border-radius: ${props => props.theme.border.radius.${1|xs,xm,md,lg,xl,50|}};"
     ],
-    "description": "Use a font-weight from the theme file"
+    "description": "Use a border-radius from the theme file"
   },
-  "Conditional Line": {
+  "CSS(SC) - Conditional Line": {
     "prefix": "!conline",
     "body": [
       "$2: ${props => props.$1 && \"$3\"};"
     ],
     "description": "A conditional line of CSS"
   },
-  "Conditional Block": {
+  "CSS(SC) - Conditional Block": {
     "prefix": "!conblock",
     "body": [
       "${props =>",
@@ -54,11 +54,11 @@
     ],
     "description": "A conditional block of CSS"
   },
-  "Switch": {
+  "CSS(SC) - Switch": {
     "prefix": "!switch",
     "body": [
       "${props => $1(props)};"
     ],
     "description": "Call a switch from within a CSS block"
-  },
+  }
 }
