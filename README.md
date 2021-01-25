@@ -39,6 +39,12 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 
 ## Release Notes
 
+### 0.0.6
+
+#### Fixed
+
+- Fixed `scaffold` examples for the Javascript snippets file in the README
+
 ### 0.0.5
 
 #### Fixed
