@@ -20,8 +20,8 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 ### Javascript
 
 ```
-  !scaffold-test: Scaffold out a new Spec file
-  !scaffold-stylesheet: Scaffold out a new Styled Components stylesheet
+  !scaffold: Scaffold out a new Spec file
+  !scaffold: Scaffold out a new Styled Components stylesheet
   !block: Create a new Styled Component
   !th: Import the ThemeHelper function
   !switch: A switch statement to be used in a stylesheet
