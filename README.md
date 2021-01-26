@@ -39,6 +39,19 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 
 ## Release Notes
 
+### 0.0.7
+
+#### Added
+
+- Added `color:` prefix to CSS `!color` snippet
+- Added ThemeHelper wrap around `!color` theme color
+
+#### Fixed
+
+- Fixed options for `!font-weight`
+- Fixed `sm` option for `!font-size` and  `!border-radius`. It was `xm`
+- Fixed scaffold examples for the Javascript snippets file in the README
+
 ### 0.0.6
 
 #### Fixed
