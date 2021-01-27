@@ -4,6 +4,12 @@ All notable changes to the "bauhaus-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to 5structure this file.
 
+## 0.0.9
+
+### Added
+
+- Added new **CSS** examples to the README
+
 ## 0.0.8
 
 ### Added

@@ -15,6 +15,11 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
   !conline: A conditional line of CSS
   !conblock: A conditional block of CSS
   !switch: Call a switch from within a CSS block
+  !sd: Disable Stylelint for a block of styling
+  !sdl: Disable Stylelint on one line of styling
+  !se: Enable Stylelint after disabling it
+  !com: Add a CSS comment
+  !show: Add a border around a box to quickly locate it
 ```
 
 ### Javascript
@@ -38,6 +43,12 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 ```
 
 ## Release Notes
+
+### 0.0.9
+
+#### Added
+
+- Added new **CSS** examples to the README
 
 ### 0.0.8
 
