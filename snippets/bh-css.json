@@ -60,5 +60,40 @@
       "${props => $1(props)};"
     ],
     "description": "Call a switch from within a CSS block"
+  },
+  "CSS(SC) - Stylelint Disable": {
+    "prefix": "!sd",
+    "body": [
+      "/* stylelint-disable $1 */"
+    ],
+    "description": "Disable Stylelint for a block of styling"
+  },
+  "CSS(SC) - Stylelint Disable Line": {
+    "prefix": "!sdl",
+    "body": [
+      "/* stylelint-disable-line */"
+    ],
+    "description": "Disable Stylelint on one line of styling"
+  },
+  "CSS(SC) - Stylelint Enable": {
+    "prefix": "!se",
+    "body": [
+      "/* stylelint-enable */"
+    ],
+    "description": "Enable Stylelint after disabling it"
+  },
+  "CSS(SC) - Comments": {
+    "prefix": "!com",
+    "body": [
+      "/* $1 */"
+    ],
+    "description": "Add a CSS comment"
+  },
+  "CSS(SC) - Quick Display": {
+    "prefix": "!show",
+    "body": [
+      "border: 3px solid red; /* stylelint-disable-line */"
+    ],
+    "description": "Add a border around a box to quickly locate it"
   }
 }
