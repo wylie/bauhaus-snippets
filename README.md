@@ -39,6 +39,17 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 
 ## Release Notes
 
+### 0.0.8
+
+#### Added
+
+- Added snippets to **CSS**
+ - `!sd`
+ - `!sdl`
+ - `!se`
+ - `!com`
+ - `!show`
+
 ### 0.0.7
 
 #### Added

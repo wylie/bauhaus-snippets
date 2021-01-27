@@ -4,6 +4,17 @@ All notable changes to the "bauhaus-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to 5structure this file.
 
+## 0.0.8
+
+### Added
+
+- Added snippets to **CSS**
+ - `!sd`
+ - `!sdl`
+ - `!se`
+ - `!com`
+ - `!show`
+
 ## 0.0.7
 
 ### Added
