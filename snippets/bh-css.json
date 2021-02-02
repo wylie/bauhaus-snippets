@@ -95,5 +95,14 @@
       "border: 3px solid red; /* stylelint-disable-line */"
     ],
     "description": "Add a border around a box to quickly locate it"
+  },
+  "CSS(SC) - Reusable Style Block": {
+    "prefix": "!style",
+    "body": [
+      "const $1 = css`\n",
+      "\t$2\n",
+      "`;"
+    ],
+    "description": "Add a block of CSS that can be reused within multiple Styled Components"
   }
 }

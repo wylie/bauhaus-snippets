@@ -20,6 +20,7 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
   !se: Enable Stylelint after disabling it
   !com: Add a CSS comment
   !show: Add a border around a box to quickly locate it
+  !style: Add a block of CSS that can be reused within multiple Styled Components
 ```
 
 ### Javascript
@@ -43,6 +44,13 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 ```
 
 ## Release Notes
+
+### 0.0.10
+
+#### Added
+
+- Add snippet to **CSS**
+ - `!style`
 
 ### 0.0.9
 
