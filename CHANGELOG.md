@@ -4,6 +4,13 @@ All notable changes to the "bauhaus-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to 5structure this file.
 
+## 0.0.11
+
+### Fixed
+
+- Moved snippet from **CSS** to **JS**
+ - `!style`
+
 ## 0.0.10
 
 ### Added

@@ -67,6 +67,15 @@
     ],
     "description": "A switch statement to be used in a stylesheet"
   },
+  "Stylesheet - Reusable Style Block": {
+    "prefix": "!style",
+    "body": [
+      "const $1 = css`\n",
+      "\t$2\n",
+      "`;"
+    ],
+    "description": "Add a block of CSS that can be reused within multiple Styled Components"
+  },
   "Spec - Console Log": {
     "prefix": "!clog",
     "body": [
