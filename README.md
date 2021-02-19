@@ -45,6 +45,12 @@ Hey, do you work on Team Bauhaus? Do you use VS Code? Here are some handy snippe
 
 ## Release Notes
 
+### 0.0.12
+
+#### Changed
+
+- Use the `wrappingComponent` pattern for tests
+
 ### 0.0.11
 
 #### Fixed

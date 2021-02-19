@@ -4,6 +4,12 @@ All notable changes to the "bauhaus-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to 5structure this file.
 
+## 0.0.12
+
+### Changed
+
+- Use the `wrappingComponent` pattern for tests
+
 ## 0.0.11
 
 ### Fixed
